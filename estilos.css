@@ -22,9 +22,30 @@
 }
 
 .nav__item--active{
-    background-color: white;
+    background-color: lightcoral;
 }
 
 .nav__link--active{
-    color: lightcoral;
+    color: white;
+}
+
+.section__p {
+    padding: 20px;
+    background-color: lawngreen;
+}
+
+.section__services {
+    
+    width: 100%;
+    padding: 20px;
+}
+
+.article__h2 {
+    padding: 20px;
+    background-color: lightblue;
+
+}
+
+.main__main {
+    background-color: orange
 }

@@ -12,53 +12,57 @@
 
          <header>
         <h1>Bem vindo à Agência Criativa Web</h1>
-            <img src="Los-15-mejores-logos-de-equipos-y-empresas-ficticias-en-el-cine-2.jpg" alt="Logo da Agência Criativa Web" >
+            <img src="Los-15-mejores-logos-de-equipos-y-empresas-ficticias-en-el-cine-2.jpg" alt="Logo da Agência Criativa Web" 
+                 srcset="Los-15-mejores-logos-de-equipos-y-empresas-ficticias-en-el-cine-2.jpg 600w, 
+                         Los-15-mejores-logos-de-equipos-y-empresas-ficticias-en-el-cine-2.jpg 1200w,
+                         Los-15-mejores-logos-de-equipos-y-empresas-ficticias-en-el-cine-2.jpg 1800w"
+                         
+                         sizes="(max-width: 600px) 100vw,
+                                (max-width: 1200px) 50vw,
+                                33vw">  
+            
+            </header>
+
             <nav class="nav" 
                 <ul class="nav__list">
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Sobre nós</a></li>
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Serviços</a></li>
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Depoimentos</a></li>
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Contato</a></li>
+                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#">Sobre nós</a></li>
+                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#">Serviços</a></li>
+                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#">Depoimentos</a></li>
+                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#">Contato</a></li>
                 </ul>
 
             </nav>
-    </header>
-    <main>
 
-        <section>
+    <main class="main__main">
+
+        <section class="section__p"> 
             <h2>Sobre nós</h2>
             <p>Somos uma agência criativa especializada em soluções digitais inovadoras.</p>
         </section>
 
-        <section>
-            <h2>Serviços</h2>
-            <nav class="nav" 
-                <ul class="nav__list">
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Desenvolvimento de Websites</a></li>
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Design Gráfico</a></li>
-                    <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="">Marketing Digital</a></li>
-                </ul>
-            </nav>
+        <section class="section">
+            <h2>Serviços</h2> 
+            <ul>
+                <li><a href="#">Desenvolvimento de Websites</a></li>
+                <li><a href="#">Design Gráfico</a></li>
+                <li><a href="#">Marketing Digital</a></li>
+            </ul>
             
         </section>
 
-        <article>
+        <article class="article__h2">
             <h2>Depoimentos</h2>
-            <p>"A Agência Criativa Web transformou nossa presença online. Recomendo!" - José</p>
-            <p>"Traballhar com a equipe da Agência foi uma excelente experiência." - Maria</p>
-            <p>"Eles são profissionais excepcionais e entregam resuktados de alta qualidade." - João</p>
+            <p class="article__h2">"A Agência Criativa Web transformou nossa presença online. Recomendo!" - José</p>
+            <p class="article__h2">"Traballhar com a equipe da Agência foi uma excelente experiência." - Maria</p>
+            <p class="article__h2">"Eles são profissionais excepcionais e entregam resuktados de alta qualidade." - João</p>
         </article>
         </main>
     
 
      <footer>
-        <h3>Contato</h3>
-        <p>Contato: contato@agenciacriativaweb.com</p>
-        <p>Endereço: Rua Olá mundo, 404</p>
-        <p>Telefone: (11) 1234-5678</p>
-        <p>&copy; 2026 Agência Criativa Web. Todos os direitos reservados.</p>
-        <p>Envie uma seu mensagem utilizando os campos abaixo:</p>
-        <form>
+
+ <form>
+            <p>Envie o seu depoimento utilizando os campos abaixo:</p>
             <label for="nome">Nome =></label>
             <input type="text" id="nome" name="nome" required>
             <label for="email">E-mail =></label>
@@ -67,6 +71,13 @@
             <textarea id="mensagem" name="mensagem" required></textarea>
             <button type="submit">Enviar</button>
         </form>
+
+        <h3>Contato</h3>
+        <p>Contato: contato@agenciacriativaweb.com</p>
+        <p>Endereço: Rua Olá mundo, 404</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>&copy; 2026 Agência Criativa Web. Todos os direitos reservados.</p>
+        
     </div>
 </body> 
 </html>
