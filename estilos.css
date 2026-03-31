@@ -21,31 +21,28 @@
     font-weight: bold;
 }
 
-.nav__item--active{
+.nav__item--active {
     background-color: lightcoral;
 }
 
-.nav__link--active{
+.nav__link--active {
     color: white;
 }
 
-.section__p {
-    padding: 20px;
-    background-color: lawngreen;
-}
-
-.section__services {
-    
-    width: 100%;
-    padding: 20px;
-}
-
-.article__h2 {
-    padding: 20px;
-    background-color: lightblue;
+.section__menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.main__main {
-    background-color: orange
+
+.article__depoimentos {
+    padding: 1.0rem;
+
 }
+
+
+
+
+
