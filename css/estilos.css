@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.cabecalho {
+  background: lightblue;
+  padding: 10px;
+}
+.cabecalho__título {
+  text-align: center;
+}
+.cabecalho__logo {
+  display: block;
+  margin: 0px auto;
+  width: 250px;
+  padding: 10px;
+}
+
+.navegacao {
+  display: flex;
+  /* align-content: flex-start;
+   justify-content: flex-start;
+   /*flex-direction: column;*/
+  /* height: 0px;*/
+  /* width: 100px;*/
+  /*background-color: variaveis.$cor-secundaria;
+  /*padding: variaveis.$espacamento-padrao;*/
+}
+.navegacao__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0rem;
+  padding: 0rem 1rem 0rem 0rem;
+  height: 250px;
+  width: 250px;
+}
+.navegacao__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.navegacao__link {
+  color: lightcoral;
+  text-decoration: none;
+  padding: 1.5rem 1.5rem 1rem 1rem;
+  font-weight: bold;
+}
+.navegacao__sobre {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+}
+.navegacao__apresentacao {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem 16rem 1.5rem 16rem;
+  margin: 0rem;
+}
+
+.navegacao__item--active {
+  background-color: lightcoral;
+}
+
+.navegacao__link--active {
+  color: white;
+}
+
+.conteudo {
+  display: flex;
+  background-color: lightblue;
+}
+.conteudo__titulo {
+  text-align: center;
+  margin: 0rem;
+  padding: 1rem 20rem 1rem 1rem;
+}
+.conteudo__menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0rem;
+  padding: 1rem 20rem 1rem 1rem;
+  font-weight: bold;
+}
+
+.depoimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightblue;
+  /*padding:1rem 20rem 1rem 1rem;*/
+}
+.depoimento__clientes {
+  text-align: center;
+}
+
+.rodape {
+  background-color: beige;
+}
+.rodape__formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.rodape__formulario submit-button {
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.rodape__instrucao {
+  text-align: left;
+}
+.rodape__contato {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.625rem;
+  }
+  main {
+    width: 95%;
+    padding: 0.625rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 0.75rem;
+  }
+  main {
+    width: 80%;
+  }
+}
+@media (min-width: 901px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.85rem;
+  }
+  main {
+    width: 75%;
+    max-width: 62.5rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

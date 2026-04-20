@@ -1,0 +1,31 @@
+@use 'variaveis';
+
+.rodape {
+    background-color: beige;
+
+    &__formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        padding: 1rem 1rem 1rem 1rem;
+        submit-button {
+            background-color: variaveis.$cor-secundaria;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        };
+    }
+ 
+    &__instrucao {
+        text-align: left;
+    }
+
+    &__contato {
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+}

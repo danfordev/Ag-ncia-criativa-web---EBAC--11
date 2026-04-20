@@ -1,0 +1,18 @@
+@use 'variaveis';
+ 
+.cabecalho {
+    background: variaveis.$cor-primaria;
+    padding: variaveis.$espacamento-padrao;
+
+    &__título {
+        text-align: center;
+   }
+
+   &__logo {
+        display: block;
+        margin: 0px auto;
+        width: 250px;
+        padding: variaveis.$espacamento-padrao;
+    
+   }
+    }              

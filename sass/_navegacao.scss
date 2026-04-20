@@ -1,0 +1,73 @@
+@use 'variaveis';
+
+
+
+.navegacao {
+    display: flex;
+    
+   /* align-content: flex-start;
+    justify-content: flex-start;
+    /*flex-direction: column;*/
+   /* height: 0px;*/
+   /* width: 100px;*/
+    /*background-color: variaveis.$cor-secundaria;
+    /*padding: variaveis.$espacamento-padrao;*/
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0rem;
+        padding: 0rem 1rem 0rem 0rem;
+        height: 250px;
+        width: 250px;   
+
+        
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        
+
+    }
+
+    &__link {
+        color: variaveis.$cor-secundaria;
+        text-decoration: none;
+        padding: 1.5rem 1.5rem 1rem 1rem;
+        font-weight: bold;
+    }
+
+    &__sobre {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        font-weight: bold;
+        text-align: center;
+    
+    
+    }
+
+    &__apresentacao{
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1.5rem 16rem 1.5rem 16rem;
+        margin: 0rem;
+    
+    }
+}
+
+.navegacao__item--active {
+    background-color: variaveis.$cor-secundaria;
+}
+
+.navegacao__link--active {
+    color: variaveis.$cor-tercearia;
+}

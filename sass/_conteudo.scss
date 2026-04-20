@@ -1,0 +1,34 @@
+@use 'variaveis';
+
+.conteudo {
+    display: flex;
+    background-color: variaveis.$cor-primaria;;
+
+
+    &__titulo {
+        text-align: center;
+        margin: 0rem;
+       padding: 1rem 20rem 1rem 1rem;
+    }
+    &__menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 0rem;
+        padding: 1rem 20rem 1rem 1rem; 
+        font-weight: bold;
+    }
+    }
+ .depoimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: variaveis.$cor-primaria;
+    /*padding:1rem 20rem 1rem 1rem;*/
+
+    &__clientes {
+        text-align: center;
+    }
+    }
